@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda | paw-news</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</head>
+
+<body>
+<div class="container">
+    <!-- Heaader starts here -->
+     <div class="mt-4 p-5 bg-dark text-white rounded">
+        <h1>Paw-news.com</h1>
+        <p>Berita terpercaya dalam genggaman Anda !</p>
+     </div>
+
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark mt-1 rounded">
+        <div class="container-fluid">
+            <!-- Link -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="beranda.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Politik.html">Politik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Olahraga.html">Olahraga</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Kesehatan.html">Kesehatan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tips.html">Tips</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+            </ul>
+            <!-- Ends Link -->
+        </div>
+     </nav>
+     <!-- Header ends here -->
+
+     <table align="center" width="700px">
+        <tr>
+            <td height="350px" valign="top">
+                <!-- Content starts here -->
+                 <h3>Selamat datang di paw-news di halaman Kesehatan</h3>
+
+                 <img src="data:image/jpeg;base64,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" width="300px">
+                 
+                <p align="justify">
+                    Vaksin TBC M72 Mulai Diuji di Indonesia pada 2030
+                    <hr/>
+                    Uji coba vaksin ini telah berlangsung sejak Maret 2024 dan melibatkan sekiar 20.000 peserta di lima negara, termasuk Indonesia.
+                    <br>
+                    Hingga Maret 2025, jumlah subjek penelitian di Indonesia hampir mencapai 2.000 orang.
+                </p>
+                <!-- Content ends here -->
+            </td>
+        </tr>
+     </table>
+
+     <!-- Footer starts here -->
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">
+                Copyright &trade; 2025 | By Kelas PAW1-SI4C | All Right Reserved
+            </a>
+        </li>
+      </ul>
+      <!-- Footer ends here -->
+</div>
+</body>
+</html>
